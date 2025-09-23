@@ -63,6 +63,19 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        'hero-gradient': 'var(--hero-gradient)',
+        'card-gradient': 'var(--card-gradient)',
+        'skill-progress': 'var(--skill-progress)',
+      },
+      boxShadow: {
+        'hero-glow': 'var(--hero-glow)',
+        'text-glow': 'var(--text-glow)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
+      },
       keyframes: {
         "accordion-down": {
           from: {
@@ -80,10 +93,41 @@ export default {
             height: "0",
           },
         },
+        "fade-in": {
+          from: {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "slide-in": {
+          from: {
+            opacity: "0",
+            transform: "translateX(-20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        "glow": {
+          "0%, 100%": {
+            textShadow: "0 0 20px hsl(215 85% 64% / 0.5)",
+          },
+          "50%": {
+            textShadow: "0 0 30px hsl(215 85% 64% / 0.8), 0 0 40px hsl(258 90% 66% / 0.5)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.6s ease-out",
+        "slide-in": "slide-in 0.6s ease-out",
+        "glow": "glow 2s ease-in-out infinite",
       },
     },
   },
