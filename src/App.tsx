@@ -2,9 +2,13 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import { Navigation } from "@/components/ui/navigation";
+import { HeroSection } from "@/components/ui/hero-section";
+import { AboutSection } from "@/components/ui/about-section";
+import { SkillsSection } from "@/components/ui/skills-section";
+import { ProjectsSection } from "@/components/ui/projects-section";
+import { ContactSection } from "@/components/ui/contact-section";
+import { Footer } from "@/components/ui/footer";
 
 const queryClient = new QueryClient();
 
@@ -13,13 +17,21 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        <main>
+          <section id="hero">
+            <HeroSection />
+          </section>
+          <AboutSection />
+          <section id="skills">
+            <SkillsSection />
+          </section>
+          <ProjectsSection />
+          <ContactSection />
+        </main>
+        <Footer />
+      </div>
     </TooltipProvider>
   </QueryClientProvider>
 );
