@@ -22,14 +22,14 @@ export const HeroSection = () => {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 animate-glow bg-hero-gradient bg-clip-text text-transparent">
-            Your Name
+            Phong Mai The
           </h1>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light mb-8 text-muted-foreground">
-            Full Stack Developer & UI/UX Designer
+          AI Engieering specializing in Python, LLM, and AI Agent.
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
             Crafting exceptional digital experiences with modern technologies. 
-            Passionate about clean code, beautiful design, and innovative solutions.
+            Passionate about training big neutral network, intelligent agent, and innovative solutions.
           </p>
           
           {/* CTA Buttons */}
@@ -54,7 +54,7 @@ export const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/maiphong0411" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card border border-border hover:border-primary transition-all duration-300 transform hover:scale-110 hover:shadow-text-glow"
@@ -62,7 +62,7 @@ export const HeroSection = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/mai-phong/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card border border-border hover:border-primary transition-all duration-300 transform hover:scale-110 hover:shadow-text-glow"
@@ -70,7 +70,7 @@ export const HeroSection = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:phong.mt184172@gmail.com"
               className="p-3 rounded-full bg-card border border-border hover:border-primary transition-all duration-300 transform hover:scale-110 hover:shadow-text-glow"
             >
               <Mail className="w-6 h-6" />
