@@ -79,7 +79,7 @@ export const HeroSection = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-100 left-1/2 transform -translate-x-1/2 animate-bounce">
           <button 
             onClick={() => scrollToSection('about')}
             className="p-2 rounded-full border border-primary/30 hover:border-primary transition-colors duration-300"
