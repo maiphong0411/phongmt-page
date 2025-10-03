@@ -39,8 +39,8 @@ export const AboutSection = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer with over 5 years of experience creating digital solutions 
-            that make a difference. I love turning complex problems into simple, beautiful designs.
+            I'm a passionate developer with a strong background in machine learning and software engineering.
+            I love training neutral network and building intelligent agents from scratch.
           </p>
         </div>
 
@@ -50,19 +50,16 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-semibold mb-6 text-primary">My Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Started my career as a frontend developer, gradually expanding into full-stack 
-                development and UI/UX design. I've had the privilege of working with startups 
-                and enterprise companies, delivering solutions that impact thousands of users.
+                Started learning Information Technology at HUST with 5-years engineer degree.
+                After graduation, I had a great chance to work at VinBigData and VinBrain through VinGroup AI Training Program. 
+                During this period, I gained valuable experience in developing and deploying machine learning models.
               </p>
               <p>
-                I believe in continuous learning and staying up-to-date with the latest 
-                technologies. When I'm not coding, you'll find me contributing to open-source 
-                projects or experimenting with new frameworks.
+                Currently, I am working as Data Scientist at Johnson and Johnson through VMO Holdings. 
+                I am responsible for building GenAI applications for Johnson & Johnson to increase content creating performance. Also, I am going deeply to ad-hoc analysis to understand the business problem and provide the valuable insights.
               </p>
               <p>
-                My approach combines technical excellence with user-centered design, ensuring 
-                that every project not only works flawlessly but also provides an exceptional 
-                user experience.
+                My future goal is to bring AI to many applications and I always believe that AI will help our life better.
               </p>
             </div>
           </div>
