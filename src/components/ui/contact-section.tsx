@@ -34,19 +34,19 @@ export const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "your.email@example.com",
-      link: "mailto:your.email@example.com"
+      details: "phong.mt184172@gmail.com",
+      link: "mailto:phong.mt184172@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      details: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      details: "+84 396 651 152",
+      link: "tel:+84396651152"
     },
     {
       icon: MapPin,
       title: "Location",
-      details: "New York, NY",
+      details: "Hanoi, Vietname",
       link: null
     }
   ];
@@ -169,9 +169,9 @@ export const ContactSection = () => {
                 className="border-primary text-primary hover:bg-primary/10 transition-all duration-300"
                 asChild
               >
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:phong.mt184172@gmail.com">
                   <Mail className="w-4 h-4 mr-2" />
-                  your.email@example.com
+                  phong.mt184172@gmail.com
                 </a>
               </Button>
             </div>
