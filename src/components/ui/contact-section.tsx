@@ -46,7 +46,7 @@ export const ContactSection = () => {
     {
       icon: MapPin,
       title: "Location",
-      details: "Hanoi, Vietname",
+      details: "Hanoi, Vietnam",
       link: null
     }
   ];
