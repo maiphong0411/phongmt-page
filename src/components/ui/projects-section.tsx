@@ -6,27 +6,27 @@ import { ExternalLink, Github } from "lucide-react";
 export const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Chatbot for enterprise",
       description: "A modern e-commerce platform built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      githubUrl: "https://github.com/username/ecommerce",
-      liveUrl: "https://project-demo.com",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
+      technologies: ["Python", "OpenAI", "Milvis", "FastAPI", "PostgreSQL"],
+      githubUrl: "https://github.com/maiphong0411/",
+      liveUrl: "",
+      image: "https://atpro.com.vn/wp-content/uploads/2024/01/chatbot-la-gi-1.jpg"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "TypeScript", "Firebase", "Material-UI"],
-      githubUrl: "https://github.com/username/taskmanager",
-      liveUrl: "https://task-demo.com",
+      title: "Code Generation",
+      description: "A code generation model trained on a large corpus of programming languages to assist developers in writing code faster and more efficiently.",
+      technologies: ["Pytorch", "Tokenizer", "DDP", "Mixed-precision training"],
+      githubUrl: "https://github.com/maiphong0411/code_generation",
+      liveUrl: "",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard that displays current conditions and forecasts with beautiful visualizations and location-based services.",
-      technologies: ["Vue.js", "Chart.js", "Weather API", "CSS3"],
-      githubUrl: "https://github.com/username/weather",
-      liveUrl: "https://weather-demo.com",
+      title: "Mini RAG",
+      description: "A Retrieval-Augmented Generation (RAG) system that combines a pre-trained language model with a vector database to provide accurate and context-aware responses.",
+      technologies: ["LLM", "ChromaDB", "ReACT", "Python"],
+      githubUrl: "https://github.com/maiphong0411/miniRAG",
+      liveUrl: "",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
     },
     {
