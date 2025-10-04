@@ -30,27 +30,27 @@ export const ProjectsSection = () => {
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop"
     },
     {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing my work and skills, built with modern web technologies and optimized for performance.",
+      title: "Streaming ASR",
+      description: "Training a streaming Automatic Speech Recognition (ASR) model using advanced techniques for real-time transcription and low-latency performance.",
       technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-      githubUrl: "https://github.com/username/portfolio",
-      liveUrl: "https://portfolio-demo.com",
+      githubUrl: "https://github.com/maiphong0411/streaming-asr",
+      liveUrl: "",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop"
     },
     {
-      title: "Social Media Analytics",
-      description: "A comprehensive analytics dashboard for social media metrics with data visualization and automated reporting features.",
+      title: "Ad-hoc Analytics",
+      description: "A comprehensive analytics dashboard for marketing and sales metrics with data visualization and automated reporting features.",
       technologies: ["React", "D3.js", "Python", "MongoDB", "Express"],
-      githubUrl: "https://github.com/username/analytics",
-      liveUrl: "https://analytics-demo.com",
+      githubUrl: "https://github.com/maiphong0411/",
+      liveUrl: "",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop"
     },
     {
-      title: "Learning Management System",
-      description: "An educational platform with course management, progress tracking, and interactive learning modules for students and instructors.",
-      technologies: ["Next.js", "PostgreSQL", "Prisma", "NextAuth"],
-      githubUrl: "https://github.com/username/lms",
-      liveUrl: "https://lms-demo.com",
+      title: "Covid stress level",
+      description: "A machine learning model to predict stress levels during the Covid-19 pandemic using survey data and various psychological factors.",
+      technologies: ["MLOPs", "Scikit-learn", "Azure"],
+      githubUrl: "https://github.com/maiphong0411/mlops-covid19-stress-level",
+      liveUrl: "",
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop"
     }
   ];
