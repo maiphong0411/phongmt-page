@@ -27,8 +27,8 @@ export const AboutSection = () => {
   ];
 
   const technologies = [
-    "React", "TypeScript", "Node.js", "Python", "PostgreSQL", "MongoDB",
-    "AWS", "Docker", "Git", "Figma", "Tailwind CSS", "Next.js"
+    "Python", "FastAPI", "HuggingFace", "Langchain", "Langgraph", "Milvus",
+    "AWS", "Docker", "Git", "Figma", "Pytorch", "Scikit-learn"
   ];
 
   return (
