@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import cvPdf from "@/assets/CV_AI_DS_MaiThePhong.pdf";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,11 +22,21 @@ export const Navigation = () => {
     setIsOpen(false);
   };
 
+  const handleNavClick = (target: string) => {
+    if (target === "cv") {
+      window.open(cvPdf, '_blank');
+      setIsOpen(false);
+    } else {
+      scrollToSection(target);
+    }
+  };
+
   const navItems = [
     { label: "Home", target: "hero" },
     { label: "About", target: "about" },
     { label: "Skills", target: "skills" },
     { label: "Projects", target: "projects" },
+    { label: "CV", target: "cv" },
     { label: "Contact", target: "contact" }
   ];
 
@@ -48,7 +59,7 @@ export const Navigation = () => {
             {navItems.map((item) => (
               <button
                 key={item.target}
-                onClick={() => scrollToSection(item.target)}
+                onClick={() => handleNavClick(item.target)}
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 relative group"
               >
                 {item.label}
@@ -75,7 +86,7 @@ export const Navigation = () => {
               {navItems.map((item) => (
                 <button
                   key={item.target}
-                  onClick={() => scrollToSection(item.target)}
+                  onClick={() => handleNavClick(item.target)}
                   className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 w-full text-left"
                 >
                   {item.label}
