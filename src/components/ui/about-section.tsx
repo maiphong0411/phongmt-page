@@ -11,8 +11,8 @@ export const AboutSection = () => {
     },
     {
       icon: Palette,
-      title: "Design Focus",
-      description: "Creating beautiful, intuitive user interfaces with attention to detail."
+      title: "Large Language Models",
+      description: "Training and fine-tuning large language models for various NLP tasks."
     },
     {
       icon: Rocket,
