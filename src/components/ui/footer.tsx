@@ -10,10 +10,10 @@ export const Footer = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold bg-hero-gradient bg-clip-text text-transparent mb-2">
-              Your Name
+              Phong Mai The
             </h3>
             <p className="text-muted-foreground">
-              Full Stack Developer & UI/UX Designer
+              AI Engineer & Data Scientist
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-muted-foreground flex items-center justify-center md:justify-end gap-1">
-              © {currentYear} Made with <Heart className="w-4 h-4 text-red-500" /> by Your Name
+              © {currentYear} Made with <Heart className="w-4 h-4 text-red-500" /> by Peter
             </p>
           </div>
         </div>
