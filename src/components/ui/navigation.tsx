@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import cvPdf from "@/assets/CV_AI_DS_MaiThePhong.pdf";
+import cvPdf from "@/assets/PhongMT_CV_06102025.pdf";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
